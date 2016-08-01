@@ -66,7 +66,7 @@
 				<configuration>
 					<imageName>${docker.image.prefix}/spring-boot-docker</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
-					<!-- Tag the image with version or something not latest -->
+					<!-- Tag the image with version if not latest. By default its latest -->
 					<!--<imageTags>
 						<imageTag>${project.artifactId}</imageTag>
 					</imageTags>-->
